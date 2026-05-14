@@ -1,0 +1,17 @@
+{
+  "framework_version": "cycle-108-baselines-pin-386bbe1779f7-49-gc934633",
+  "schema_version": 2,
+  "installation_mode": "submodule",
+  "submodule": {
+    "path": ".loa",
+    "ref": "main",
+    "commit": "c9346336369507eb91b95f26a9f099227846baaa"
+  },
+  "last_sync": "2026-05-14T18:00:01Z",
+  "zones": {
+    "system": ".claude",
+    "submodule": ".loa/.claude",
+    "state": ["grimoires/loa", ".beads"],
+    "app": ["src", "lib", "app"]
+  }
+}
