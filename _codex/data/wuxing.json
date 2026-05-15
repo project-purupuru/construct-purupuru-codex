@@ -1,0 +1,159 @@
+{
+  "elements": {
+    "wood": {
+      "id": "elem-wood",
+      "name": "Wood",
+      "slug": "wood",
+      "entity_type": "element",
+      "canon_tier": "canonical",
+      "element": "wood",
+      "season": "spring",
+      "time": "morning",
+      "color": "#4CAF50",
+      "sheng_generates": "elem-fire",
+      "sheng_generated_by": "elem-water",
+      "ke_overcomes": "elem-earth",
+      "ke_overcome_by": "elem-metal",
+      "characters": [
+        "char-kaori"
+      ],
+      "puruhani": [
+        "puruhani-wood"
+      ],
+      "jani": [
+        "jani-wood"
+      ],
+      "henlo_letter": "H",
+      "trait_pair": "Hopeful / Happy"
+    },
+    "fire": {
+      "id": "elem-fire",
+      "name": "Fire",
+      "slug": "fire",
+      "entity_type": "element",
+      "canon_tier": "canonical",
+      "element": "fire",
+      "season": "summer",
+      "time": "noon",
+      "color": "#E55548",
+      "sheng_generates": "elem-earth",
+      "sheng_generated_by": "elem-wood",
+      "ke_overcomes": "elem-metal",
+      "ke_overcome_by": "elem-water",
+      "characters": [
+        "char-akane"
+      ],
+      "puruhani": [
+        "puruhani-fire"
+      ],
+      "jani": [
+        "jani-fire"
+      ],
+      "henlo_letter": "N",
+      "trait_pair": "Naughty / Nefarious"
+    },
+    "earth": {
+      "id": "elem-earth",
+      "name": "Earth",
+      "slug": "earth",
+      "entity_type": "element",
+      "canon_tier": "canonical",
+      "element": "earth",
+      "season": "late-summer",
+      "time": "afternoon",
+      "color": "#8D6E63",
+      "sheng_generates": "elem-metal",
+      "sheng_generated_by": "elem-fire",
+      "ke_overcomes": "elem-water",
+      "ke_overcome_by": "elem-wood",
+      "characters": [
+        "char-nemu"
+      ],
+      "puruhani": [
+        "puruhani-earth"
+      ],
+      "jani": [
+        "jani-earth"
+      ],
+      "henlo_letter": "E",
+      "trait_pair": "Empty / Exhausted"
+    },
+    "metal": {
+      "id": "elem-metal",
+      "name": "Metal",
+      "slug": "metal",
+      "entity_type": "element",
+      "canon_tier": "canonical",
+      "element": "metal",
+      "season": "autumn",
+      "time": "evening",
+      "color": "#B0BEC5",
+      "sheng_generates": "elem-water",
+      "sheng_generated_by": "elem-earth",
+      "ke_overcomes": "elem-wood",
+      "ke_overcome_by": "elem-fire",
+      "characters": [
+        "char-ren"
+      ],
+      "puruhani": [
+        "puruhani-metal"
+      ],
+      "jani": [
+        "jani-metal",
+        "jani-bronze",
+        "jani-silver",
+        "jani-gold"
+      ],
+      "henlo_letter": "L",
+      "trait_pair": "Loyal / Loving"
+    },
+    "water": {
+      "id": "elem-water",
+      "name": "Water",
+      "slug": "water",
+      "entity_type": "element",
+      "canon_tier": "canonical",
+      "element": "water",
+      "season": "winter",
+      "time": "night",
+      "color": "#42A5F5",
+      "sheng_generates": "elem-wood",
+      "sheng_generated_by": "elem-metal",
+      "ke_overcomes": "elem-fire",
+      "ke_overcome_by": "elem-earth",
+      "characters": [
+        "char-ruan"
+      ],
+      "puruhani": [
+        "puruhani-water"
+      ],
+      "jani": [
+        "jani-water"
+      ],
+      "henlo_letter": "O",
+      "trait_pair": "Overstimulated / Overwhelmed"
+    }
+  },
+  "cycles": {
+    "sheng": {
+      "description": "Generative/nourishing cycle — each element gives rise to the next",
+      "sequence": [
+        "wood",
+        "fire",
+        "earth",
+        "metal",
+        "water"
+      ]
+    },
+    "ke": {
+      "description": "Overcoming/controlling cycle — each element restrains another",
+      "sequence": [
+        "wood",
+        "earth",
+        "water",
+        "fire",
+        "metal"
+      ]
+    }
+  }
+}

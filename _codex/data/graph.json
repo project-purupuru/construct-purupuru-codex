@@ -1,0 +1,494 @@
+{
+  "nodes": [
+    {
+      "id": "char-ruan",
+      "entity_type": "character",
+      "name": "Ruan"
+    },
+    {
+      "id": "char-ren",
+      "entity_type": "character",
+      "name": "Ren"
+    },
+    {
+      "id": "char-nemu",
+      "entity_type": "character",
+      "name": "Nemu"
+    },
+    {
+      "id": "char-kaori",
+      "entity_type": "character",
+      "name": "Kaori"
+    },
+    {
+      "id": "char-akane",
+      "entity_type": "character",
+      "name": "Akane"
+    },
+    {
+      "id": "puruhani-wood",
+      "entity_type": "puruhani",
+      "name": "Wood Puruhani"
+    },
+    {
+      "id": "puruhani-water",
+      "entity_type": "puruhani",
+      "name": "Water Puruhani"
+    },
+    {
+      "id": "puruhani-metal",
+      "entity_type": "puruhani",
+      "name": "Metal Puruhani"
+    },
+    {
+      "id": "puruhani-fire",
+      "entity_type": "puruhani",
+      "name": "Fire Puruhani"
+    },
+    {
+      "id": "puruhani-earth",
+      "entity_type": "puruhani",
+      "name": "Earth Puruhani"
+    },
+    {
+      "id": "loc-the-wandering-hall",
+      "entity_type": "location",
+      "name": "The Wandering Hall"
+    },
+    {
+      "id": "loc-the-wall-of-lights",
+      "entity_type": "location",
+      "name": "The Wall of Lights"
+    },
+    {
+      "id": "loc-the-unearthing",
+      "entity_type": "location",
+      "name": "The Unearthing"
+    },
+    {
+      "id": "loc-the-sunken-shrine",
+      "entity_type": "location",
+      "name": "The Sunken Shrine"
+    },
+    {
+      "id": "loc-the-steel-jungle-shrine",
+      "entity_type": "location",
+      "name": "The Steel Jungle Shrine"
+    },
+    {
+      "id": "loc-the-golden-veil",
+      "entity_type": "location",
+      "name": "The Golden Veil"
+    },
+    {
+      "id": "loc-the-cave-of-clay",
+      "entity_type": "location",
+      "name": "The Cave of Clay"
+    },
+    {
+      "id": "loc-spiderweb-mall",
+      "entity_type": "location",
+      "name": "Spiderweb Mall"
+    },
+    {
+      "id": "loc-sora-tower",
+      "entity_type": "location",
+      "name": "Sora Tower"
+    },
+    {
+      "id": "loc-sky-eyes-dome",
+      "entity_type": "location",
+      "name": "Sky-eyes Dome"
+    },
+    {
+      "id": "loc-sea-street-stalls",
+      "entity_type": "location",
+      "name": "Sea Street Stalls"
+    },
+    {
+      "id": "loc-musubi-station",
+      "entity_type": "location",
+      "name": "Musubi Station"
+    },
+    {
+      "id": "loc-konka-market",
+      "entity_type": "location",
+      "name": "Konka Market"
+    },
+    {
+      "id": "loc-kissa-net",
+      "entity_type": "location",
+      "name": "Kissa-Net"
+    },
+    {
+      "id": "loc-kiln-and-kettle",
+      "entity_type": "location",
+      "name": "Kiln & Kettle"
+    },
+    {
+      "id": "loc-hearts-hearth",
+      "entity_type": "location",
+      "name": "Heart's Hearth"
+    },
+    {
+      "id": "loc-golden-granary",
+      "entity_type": "location",
+      "name": "Golden Granary"
+    },
+    {
+      "id": "loc-gateway-cafe",
+      "entity_type": "location",
+      "name": "Gateway Cafe"
+    },
+    {
+      "id": "loc-amber-garden",
+      "entity_type": "location",
+      "name": "Amber Garden"
+    },
+    {
+      "id": "jani-wood",
+      "entity_type": "jani",
+      "name": "Wood Jani"
+    },
+    {
+      "id": "jani-water",
+      "entity_type": "jani",
+      "name": "Water Jani"
+    },
+    {
+      "id": "jani-time",
+      "entity_type": "jani",
+      "name": "Time Jani"
+    },
+    {
+      "id": "jani-storm",
+      "entity_type": "jani",
+      "name": "Storm Jani"
+    },
+    {
+      "id": "jani-silver",
+      "entity_type": "jani",
+      "name": "Silver Jani"
+    },
+    {
+      "id": "jani-metal",
+      "entity_type": "jani",
+      "name": "Metal Jani"
+    },
+    {
+      "id": "jani-ice",
+      "entity_type": "jani",
+      "name": "Ice Jani"
+    },
+    {
+      "id": "jani-honey",
+      "entity_type": "jani",
+      "name": "Honey Jani"
+    },
+    {
+      "id": "jani-gold",
+      "entity_type": "jani",
+      "name": "Gold Jani"
+    },
+    {
+      "id": "jani-fire",
+      "entity_type": "jani",
+      "name": "Fire Jani"
+    },
+    {
+      "id": "jani-egg",
+      "entity_type": "jani",
+      "name": "Egg Jani"
+    },
+    {
+      "id": "jani-earth",
+      "entity_type": "jani",
+      "name": "Earth Jani"
+    },
+    {
+      "id": "jani-cloud",
+      "entity_type": "jani",
+      "name": "Cloud Jani"
+    },
+    {
+      "id": "jani-bronze",
+      "entity_type": "jani",
+      "name": "Bronze Jani"
+    },
+    {
+      "id": "jani-base",
+      "entity_type": "jani",
+      "name": "Jani"
+    }
+  ],
+  "edges": [
+    {
+      "source": "char-ruan",
+      "target": "puruhani-water"
+    },
+    {
+      "source": "char-ruan",
+      "target": "elem-water"
+    },
+    {
+      "source": "char-ren",
+      "target": "puruhani-metal"
+    },
+    {
+      "source": "char-ren",
+      "target": "elem-metal"
+    },
+    {
+      "source": "char-nemu",
+      "target": "puruhani-earth"
+    },
+    {
+      "source": "char-nemu",
+      "target": "elem-earth"
+    },
+    {
+      "source": "char-kaori",
+      "target": "puruhani-wood"
+    },
+    {
+      "source": "char-kaori",
+      "target": "elem-wood"
+    },
+    {
+      "source": "char-akane",
+      "target": "puruhani-fire"
+    },
+    {
+      "source": "char-akane",
+      "target": "elem-fire"
+    },
+    {
+      "source": "puruhani-wood",
+      "target": "char-kaori"
+    },
+    {
+      "source": "puruhani-wood",
+      "target": "elem-wood"
+    },
+    {
+      "source": "puruhani-water",
+      "target": "char-ruan"
+    },
+    {
+      "source": "puruhani-water",
+      "target": "elem-water"
+    },
+    {
+      "source": "puruhani-metal",
+      "target": "char-ren"
+    },
+    {
+      "source": "puruhani-metal",
+      "target": "elem-metal"
+    },
+    {
+      "source": "puruhani-fire",
+      "target": "char-akane"
+    },
+    {
+      "source": "puruhani-fire",
+      "target": "elem-fire"
+    },
+    {
+      "source": "puruhani-earth",
+      "target": "char-nemu"
+    },
+    {
+      "source": "puruhani-earth",
+      "target": "elem-earth"
+    },
+    {
+      "source": "loc-the-wandering-hall",
+      "target": "elem-wood"
+    },
+    {
+      "source": "loc-the-wall-of-lights",
+      "target": "elem-fire"
+    },
+    {
+      "source": "loc-the-unearthing",
+      "target": "elem-earth"
+    },
+    {
+      "source": "loc-the-unearthing",
+      "target": "puruhani-wood"
+    },
+    {
+      "source": "loc-the-unearthing",
+      "target": "puruhani-earth"
+    },
+    {
+      "source": "loc-the-unearthing",
+      "target": "puruhani-fire"
+    },
+    {
+      "source": "loc-the-unearthing",
+      "target": "puruhani-metal"
+    },
+    {
+      "source": "loc-the-unearthing",
+      "target": "puruhani-water"
+    },
+    {
+      "source": "loc-the-sunken-shrine",
+      "target": "elem-water"
+    },
+    {
+      "source": "loc-the-steel-jungle-shrine",
+      "target": "elem-metal"
+    },
+    {
+      "source": "loc-the-golden-veil",
+      "target": "loc-sora-tower"
+    },
+    {
+      "source": "loc-the-golden-veil",
+      "target": "elem-earth"
+    },
+    {
+      "source": "loc-the-cave-of-clay",
+      "target": "elem-earth"
+    },
+    {
+      "source": "loc-sora-tower",
+      "target": "loc-sky-eyes-dome"
+    },
+    {
+      "source": "loc-sora-tower",
+      "target": "loc-the-golden-veil"
+    },
+    {
+      "source": "loc-sora-tower",
+      "target": "loc-gateway-cafe"
+    },
+    {
+      "source": "loc-sky-eyes-dome",
+      "target": "loc-sora-tower"
+    },
+    {
+      "source": "loc-sky-eyes-dome",
+      "target": "elem-metal"
+    },
+    {
+      "source": "loc-sea-street-stalls",
+      "target": "elem-water"
+    },
+    {
+      "source": "loc-konka-market",
+      "target": "elem-wood"
+    },
+    {
+      "source": "loc-kiln-and-kettle",
+      "target": "elem-earth"
+    },
+    {
+      "source": "loc-hearts-hearth",
+      "target": "elem-fire"
+    },
+    {
+      "source": "loc-golden-granary",
+      "target": "elem-earth"
+    },
+    {
+      "source": "loc-gateway-cafe",
+      "target": "loc-sora-tower"
+    },
+    {
+      "source": "loc-amber-garden",
+      "target": "elem-earth"
+    },
+    {
+      "source": "jani-wood",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-wood",
+      "target": "elem-wood"
+    },
+    {
+      "source": "jani-water",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-water",
+      "target": "elem-water"
+    },
+    {
+      "source": "jani-time",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-storm",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-silver",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-silver",
+      "target": "elem-metal"
+    },
+    {
+      "source": "jani-metal",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-metal",
+      "target": "elem-metal"
+    },
+    {
+      "source": "jani-ice",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-honey",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-gold",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-gold",
+      "target": "elem-metal"
+    },
+    {
+      "source": "jani-fire",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-fire",
+      "target": "elem-fire"
+    },
+    {
+      "source": "jani-egg",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-earth",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-earth",
+      "target": "elem-earth"
+    },
+    {
+      "source": "jani-cloud",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-bronze",
+      "target": "jani-base"
+    },
+    {
+      "source": "jani-bronze",
+      "target": "elem-metal"
+    }
+  ]
+}
