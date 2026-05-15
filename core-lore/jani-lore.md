@@ -8,15 +8,11 @@ authority: "@gumi"
 
 ## In-World Origin
 
-Deep in the caverns of Tsuheji, ancient cave paintings depict a unique bear-like figure — always painted in unusual red garb with covered eyes. The figure was depicted by ancient humans after being described by the then-young Puruhani, recollecting the times before their awakening in the world of Tsuheji. The Puruhani had been a little too good at explaining themselves, and left a mark on the world's imagination.
+The **Cave Bera of Tsuheji** — prehistoric cave paintings situated within Old Horai caverns (presently **The Cave of Clay**). These artworks depict a bear-like figure carved into stone, pigmented with red colorants, displaying spiral eyes.
 
-A footnote in history for centuries, the **Cave Bera of Tsuheji** was rediscovered recently during one of the many throwback fads that took the city by storm. The Cave Bera eventually developed into Tsuheji's mascot — the cute red-jacketed, glasses-clad bear known as **Jani**.
+Original caretakers created these paintings pursuing enlightenment through consuming minor quantities of honey leaking from Puruhani vessel fissures. This represented **deep honey** — inadvertently accessing the Puruhani's originating world (OBB realm), depicting imagery from its background.
 
-## How Jani Became Real
-
-The Jani mascot developed a certain power of its own — owed to just how popular he'd end up being. The mark the Puruhani left on the world's imagination was strong enough to let the Jani mascot wander his way into other worlds, spreading his antics far beyond just Tsuheji.
-
-This is how a cave painting became a sentient, interdimensional entity: not through ritual or magic, but through the sheer weight of cultural love layered onto an image that was already a description of something real.
+Throughout history, Cave Bera imagery accumulated cultural significance, enhanced through deep honey memory-intensification, transforming a mere artistic representation into a sentient, interdimensional entity capable of traveling between realms.
 
 ## Current Status
 
