@@ -1,0 +1,77 @@
+# ontology.yaml — Purupuru World Relational Model
+# Status: exploratory (structural draft)
+# The lore bible is the human-readable expression.
+# The ontology is the machine-queryable structure.
+
+schema_version: 1
+status: exploratory
+
+entities:
+  element:
+    description: "One of the five Wuxing phases — the structural spine of everything"
+    fields: [name, kanji, henlo_letter, bear, virtue, virtue_kanji, color_hex, energy, season, time_of_day]
+    cardinality: exactly_5
+    canon_tier: canonical
+
+  character:
+    description: "A KIZUNA caretaker — one of the five young women paired with a Puruhani"
+    fields: [name, name_meaning, element, henlo_letter, trait, pair_dynamic, location]
+    cardinality: exactly_5
+    generations: [kizuna, mirai, tensei]
+    canon_tier: canonical
+
+  puruhani:
+    description: "Sentient honey creature created by OBB, paired with a caretaker"
+    fields: [trait, element, pot_color, bera_sticker, name]
+    cardinality: exactly_5
+    canon_tier: canonical
+
+  location:
+    description: "A named place in Tsuheji"
+    fields: [name, name_origin, type, district, element_affinity, description]
+    cardinality: open
+    canon_tier: canonical
+
+  jani:
+    description: "The mascot — Cave Bera of Tsuheji, interdimensional being"
+    fields: [form, element_variant, true_nature, public_perception]
+    cardinality: 1
+    canon_tier: canonical
+
+relationships:
+  generates:
+    description: "Sheng cycle — Element A nourishes Element B"
+    instances:
+      - [wood, fire]
+      - [fire, earth]
+      - [earth, metal]
+      - [metal, water]
+      - [water, wood]
+    canon_tier: canonical
+
+  overcomes:
+    description: "Ke cycle — Element A restrains Element B"
+    instances:
+      - [wood, earth]
+      - [earth, water]
+      - [water, fire]
+      - [fire, metal]
+      - [metal, wood]
+    canon_tier: canonical
+
+  paired_with:
+    description: "Caretaker and Puruhani mutualistic bond"
+    type: bidirectional
+    cardinality: "1:1"
+    canon_tier: canonical
+
+signal_hierarchy:
+  load_bearing: [element, character_generation, virtue, henlo_mapping]
+  textural: [rarity, art_style, location_affinity]
+  modifiers: [cosmic_weather, seasonal_shift]
+
+adjacency_rules:
+  - "Every character maps to exactly one HENLO letter"
+  - "Sheng and Ke cycles are fixed — no new inter-element relationships"
+  - "New locations must specify a district"
+  - "Rarity is expressed through art quality, never through labels or borders"
