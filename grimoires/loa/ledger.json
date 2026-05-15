@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "next_sprint_number": 6,
+  "active_cycle": "cycle-001",
+  "cycles": [
+    {
+      "id": "cycle-001",
+      "label": "construct-purupuru-codex v1",
+      "status": "active",
+      "created_at": "2026-05-14T19:06:00Z",
+      "prd": "grimoires/loa/prd.md",
+      "sdd": "grimoires/loa/sdd.md",
+      "sprints": [
+        {
+          "global_id": 1,
+          "local_id": 1,
+          "theme": "Foundation & Schema",
+          "status": "planned",
+          "planned_start": "2026-05-14",
+          "planned_end": "2026-05-16"
+        },
+        {
+          "global_id": 2,
+          "local_id": 2,
+          "theme": "Entity Extraction",
+          "status": "planned",
+          "planned_start": "2026-05-17",
+          "planned_end": "2026-05-19"
+        },
+        {
+          "global_id": 3,
+          "local_id": 3,
+          "theme": "Exports & Browse Indices",
+          "status": "planned",
+          "planned_start": "2026-05-20",
+          "planned_end": "2026-05-22"
+        },
+        {
+          "global_id": 4,
+          "local_id": 4,
+          "theme": "MCP Server & Skills",
+          "status": "planned",
+          "planned_start": "2026-05-23",
+          "planned_end": "2026-05-25"
+        },
+        {
+          "global_id": 5,
+          "local_id": 5,
+          "theme": "Validation, Polish & E2E",
+          "status": "planned",
+          "planned_start": "2026-05-26",
+          "planned_end": "2026-05-28"
+        }
+      ]
+    }
+  ]
+}

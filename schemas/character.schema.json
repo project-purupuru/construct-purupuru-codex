@@ -1,0 +1,40 @@
+{
+  "$id": "https://purupuru-codex/schemas/character.schema.json",
+  "title": "Character Entity",
+  "description": "Schema for KIZUNA generation characters",
+  "allOf": [
+    { "$ref": "base-entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["generation"],
+      "properties": {
+        "entity_type": { "const": "character" },
+        "generation": {
+          "type": "string",
+          "enum": ["kizuna", "mirai", "tensei"],
+          "description": "Character generation"
+        },
+        "archetype": {
+          "type": "string",
+          "description": "Character archetype or personality trait"
+        },
+        "virtue": {
+          "type": "string",
+          "description": "Core virtue or driving quality"
+        },
+        "domain": {
+          "type": "string",
+          "description": "Character's domain of activity"
+        },
+        "bear_species": {
+          "type": "string",
+          "description": "Associated bear species"
+        },
+        "puruhani_partner": {
+          "type": ["string", "null"],
+          "description": "ID of partnered Puruhani entity"
+        }
+      }
+    }
+  ]
+}

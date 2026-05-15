@@ -1,0 +1,46 @@
+{
+  "$id": "https://purupuru-codex/schemas/element.schema.json",
+  "title": "Wuxing Element",
+  "description": "Schema for Wuxing element entries in the codex",
+  "allOf": [
+    { "$ref": "base-entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["sheng_generates", "sheng_generated_by", "ke_overcomes", "ke_overcome_by"],
+      "properties": {
+        "entity_type": { "const": "element" },
+        "sheng_generates": {
+          "type": "string",
+          "description": "Element ID this element generates in the Sheng cycle"
+        },
+        "sheng_generated_by": {
+          "type": "string",
+          "description": "Element ID that generates this element in the Sheng cycle"
+        },
+        "ke_overcomes": {
+          "type": "string",
+          "description": "Element ID this element overcomes in the Ke cycle"
+        },
+        "ke_overcome_by": {
+          "type": "string",
+          "description": "Element ID that overcomes this element in the Ke cycle"
+        },
+        "characters": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Character IDs aligned to this element"
+        },
+        "puruhani": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Puruhani IDs aligned to this element"
+        },
+        "locations": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Location IDs with affinity to this element"
+        }
+      }
+    }
+  ]
+}

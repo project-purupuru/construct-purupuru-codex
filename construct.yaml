@@ -1,0 +1,86 @@
+name: Purupuru Codex
+slug: purupuru-codex
+version: 0.1.0
+description: Canonical knowledge base for the Purupuru universe — characters, Puruhani, locations, Jani variants, Wuxing elements, and world lore
+tagline: "Query and browse the Purupuru world across 6 dimensions"
+license: MIT
+type: skill-pack
+
+skills:
+  browse-codex:
+    path: skills/browse-codex
+    description: Navigate codex entities by dimension (element, generation, type, district, canon-tier, rarity)
+  query-entity:
+    path: skills/query-entity
+    description: Deterministic entity lookup by name, ID, or slug with fuzzy fallback
+  cross-reference:
+    path: skills/cross-reference
+    description: Traverse entity relationships and the Wuxing knowledge graph
+
+commands:
+  browse:
+    path: commands/browse.md
+    description: Browse the Purupuru codex by dimension
+  lookup:
+    path: commands/lookup.md
+    description: Look up a Purupuru entity
+  cross-ref:
+    path: commands/cross-ref.md
+    description: Explore entity relationships
+
+identity:
+  persona: identity/persona.yaml
+  expertise: identity/expertise.yaml
+  handles:
+    - name: ORACLE
+      path: identity/ORACLE.md
+
+mcp:
+  name: purupuru-codex
+  transport: stdio
+  command: node
+  args:
+    - dist/server.js
+  tools:
+    - lookup_character
+    - lookup_puruhani
+    - lookup_location
+    - lookup_jani
+    - lookup_element
+    - lookup_card
+    - validate_world_element
+    - search
+    - list
+
+composition_paths:
+  - characters/
+  - puruhani/
+  - locations/
+  - jani/
+  - core-lore/
+  - cards/
+  - mechanics/
+  - browse/
+  - _codex/data/
+
+metadata:
+  model_tier: haiku
+  safety_level: safe
+  parallel_execution: true
+  tool_calling: true
+  vision: false
+  extended_thinking: false
+
+dimensions:
+  - name: element
+    values: [wood, earth, fire, metal, water, harmony]
+  - name: generation
+    values: [kizuna, mirai, tensei]
+  - name: entity_type
+    values: [character, puruhani, jani, location, card]
+  - name: district
+    values: [horai-surface, old-horai, tsuheji]
+  - name: canon_tier
+    values: [canonical, established, exploratory, speculative]
+  - name: rarity
+    values: [common, uncommon, rare, rarest]

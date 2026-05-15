@@ -1,0 +1,44 @@
+{
+  "name": "construct-purupuru-codex",
+  "version": "0.1.0",
+  "description": "Canonical knowledge base for the Purupuru universe",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "tsup src/server.ts --format esm --clean --minify",
+    "dev": "tsup src/server.ts --format esm --watch",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate:schema": "tsx scripts/validate-schema.ts",
+    "validate:integrity": "tsx scripts/validate-integrity.ts",
+    "validate:coverage": "tsx scripts/validate-coverage.ts",
+    "extract": "tsx scripts/extract.ts",
+    "generate:exports": "tsx scripts/generate-exports.ts",
+    "generate:indices": "tsx scripts/generate-indices.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "fast-json-stringify": "^6.0.0",
+    "fuse.js": "^7.1.0",
+    "glob": "^13.0.6",
+    "gray-matter": "^4.0.3",
+    "yaml": "^2.7.0",
+    "zod": "^3.24.1",
+    "zod-to-json-schema": "^3.24.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.0",
+    "@types/node": "^22.10.2",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^3.1.0"
+  }
+}

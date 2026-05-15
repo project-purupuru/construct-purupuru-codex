@@ -1,0 +1,35 @@
+{
+  "$id": "https://purupuru-codex/schemas/puruhani.schema.json",
+  "title": "Puruhani Entity",
+  "description": "Schema for Puruhani sentient honey beings",
+  "allOf": [
+    { "$ref": "base-entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["emotion_trait", "pot_color", "bear_type"],
+      "properties": {
+        "entity_type": { "const": "puruhani" },
+        "generation": {
+          "type": "string",
+          "enum": ["kizuna", "mirai", "tensei"]
+        },
+        "emotion_trait": {
+          "type": "string",
+          "description": "Core emotion trait (e.g., Happy, Loving, Nefarious)"
+        },
+        "pot_color": {
+          "type": "string",
+          "description": "Honey pot color"
+        },
+        "bear_type": {
+          "type": "string",
+          "description": "Associated bear type"
+        },
+        "character_partner": {
+          "type": ["string", "null"],
+          "description": "ID of partnered character entity"
+        }
+      }
+    }
+  ]
+}

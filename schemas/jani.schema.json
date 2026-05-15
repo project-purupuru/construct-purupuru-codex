@@ -1,0 +1,30 @@
+{
+  "$id": "https://purupuru-codex/schemas/jani.schema.json",
+  "title": "Jani Entity",
+  "description": "Schema for Jani mascot and elemental variants",
+  "allOf": [
+    { "$ref": "base-entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["variant_number", "is_base"],
+      "properties": {
+        "entity_type": { "const": "jani" },
+        "variant_number": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 14,
+          "description": "Variant number (0 = base Jani)"
+        },
+        "is_base": {
+          "type": "boolean",
+          "description": "Whether this is the base Jani (not a variant)"
+        },
+        "variant_category": {
+          "type": "string",
+          "enum": ["base", "core-wuxing", "metal-split", "extended"],
+          "description": "Category of this Jani variant"
+        }
+      }
+    }
+  ]
+}

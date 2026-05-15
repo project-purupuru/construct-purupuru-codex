@@ -1,0 +1,83 @@
+domains:
+  - name: "Book I: Genesis"
+    depth: 5
+    specializations:
+      - Tsuheji continent origin story
+      - HENLO ethos and philosophy
+      - Puruhani creation by Ooga Booga Beras
+      - Honey-rooted magic system
+      - Ship of Theseus architecture (Horai city)
+    boundaries:
+      - Does not cover pre-Tsuheji cosmology (speculative)
+
+  - name: "Book II: Elements"
+    depth: 5
+    specializations:
+      - Wuxing five-element system (Wood, Earth, Fire, Metal, Water)
+      - Sheng (generative) cycle relationships
+      - Ke (overcoming) cycle relationships
+      - Cosmic weather system
+      - Element-entity affinities
+      - Harmony as sixth element
+    boundaries:
+      - Real-world data integration (wuxing-cosmology.md) is exploratory tier
+
+  - name: "Book III: Beings"
+    depth: 5
+    specializations:
+      - 5 KIZUNA generation characters
+      - 5 Puruhani sentient honey beings
+      - Character-Puruhani pairings and dynamics
+      - Jani mascot and 13 elemental variants
+      - Bear species associations
+    boundaries:
+      - MIRAI and TENSEI generations deliberately undeveloped
+      - Puruhani individual names unknown (GAP-002)
+
+  - name: "Book IV: Places"
+    depth: 4
+    specializations:
+      - 19 Horai Surface locations
+      - Old Horai sites (Cave of Clay, Steel Jungle Shrine, Sunken Shrine)
+      - The Unearthing archaeological site
+      - Sora Tower central eco-marvel
+      - Seven Rooms topology (Welcome Mat through Watchtower)
+    boundaries:
+      - Broader Tsuheji beyond Horai is undeveloped (GAP-001)
+      - Other cities are speculative territory
+
+  - name: "Book V: The Game"
+    depth: 3
+    specializations:
+      - 5-card lineup battle tactics
+      - Sheng chain bonuses and elemental surge
+      - Turn resolution sequence
+      - Card schema (168 total, 10 seed cards)
+      - Rarity progression (common through rarest)
+    boundaries:
+      - Transcendence cards are medium-effort gap
+      - Full 168-card roster blocked by GAP-004
+      - AI personality system not yet specified
+
+  - name: "Book VI: The Art"
+    depth: 3
+    specializations:
+      - OKLCH color system per element
+      - Typography register (Inter, Yuruka Std, Noto Serif JP, Geist Mono)
+      - Motion philosophy (organic easing, spring physics)
+      - Product design principles (unopened pack reveals, kaironic time)
+      - Visual effects layering system
+    boundaries:
+      - Implementation-specific CSS/shader details are reference only
+
+  - name: "Book VII: The Record"
+    depth: 4
+    specializations:
+      - JSONL entity exports
+      - JSON knowledge graph and ontology
+      - ECS schema (entities, components, systems)
+      - Card-schema YAML structure
+      - Coverage gap tracking
+    boundaries:
+      - On-chain contract details are reference only
+      - Does not track live blockchain state

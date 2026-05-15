@@ -1,0 +1,29 @@
+{
+  "$id": "https://purupuru-codex/schemas/location.schema.json",
+  "title": "Location Entity",
+  "description": "Schema for world locations (Horai Surface, Old Horai, Tsuheji)",
+  "allOf": [
+    { "$ref": "base-entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["district"],
+      "properties": {
+        "entity_type": { "const": "location" },
+        "district": {
+          "type": "string",
+          "enum": ["horai-surface", "old-horai", "tsuheji"],
+          "description": "District within the world"
+        },
+        "parent_location": {
+          "type": ["string", "null"],
+          "description": "ID of parent location (for nested locations)"
+        },
+        "element_affinity": {
+          "type": ["string", "null"],
+          "enum": ["wood", "earth", "fire", "metal", "water", "harmony", null],
+          "description": "Elemental affinity of this location"
+        }
+      }
+    }
+  ]
+}

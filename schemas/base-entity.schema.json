@@ -1,0 +1,53 @@
+{
+  "$id": "https://purupuru-codex/schemas/base-entity.schema.json",
+  "title": "Base Entity",
+  "description": "Common schema for all Purupuru codex entities",
+  "type": "object",
+  "required": ["id", "name", "slug", "entity_type", "canon_tier"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+-[a-z0-9-]+$",
+      "description": "Unique entity ID (type-prefixed slug)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-safe identifier"
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": ["character", "puruhani", "location", "jani", "element", "card"]
+    },
+    "canon_tier": {
+      "type": "string",
+      "enum": ["canonical", "established", "exploratory", "speculative"]
+    },
+    "element": {
+      "type": ["string", "null"],
+      "enum": ["wood", "earth", "fire", "metal", "water", "harmony", null]
+    },
+    "source_file": {
+      "type": "string",
+      "description": "Path to world-purupuru source file"
+    },
+    "source_commit": {
+      "type": "string",
+      "description": "Git commit hash of extraction source"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "cross_references": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs of related entities"
+    }
+  }
+}

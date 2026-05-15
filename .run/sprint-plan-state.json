@@ -1,0 +1,20 @@
+{
+  "plan_id": "plan-20260514-c1341d27",
+  "target": "sprint-plan",
+  "state": "RUNNING",
+  "sprints": {
+    "total": 5,
+    "completed": 1,
+    "current": "sprint-2",
+    "list": [
+      {"id": "sprint-1", "status": "completed", "cycles": 1},
+      {"id": "sprint-2", "status": "pending"},
+      {"id": "sprint-3", "status": "pending"},
+      {"id": "sprint-4", "status": "pending"},
+      {"id": "sprint-5", "status": "pending"}
+    ]
+  },
+  "options": {"from": 2, "to": 5, "max_cycles": 20},
+  "metrics": {"total_cycles": 0, "total_files_changed": 0},
+  "timestamps": {"started": "2026-05-14T23:35:00Z", "last_activity": "2026-05-14T23:35:00Z"}
+}
