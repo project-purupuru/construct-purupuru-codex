@@ -99,10 +99,23 @@ for (const { dir } of ENTITY_DIRS) {
   }
 }
 
+// Add element nodes from wuxing.yaml
+const wuxingElements = wuxingData as { elements: Record<string, { id: string; name: string }> };
+for (const [, elem] of Object.entries(wuxingElements.elements || {})) {
+  if (elem.id && elem.name) {
+    nodes.push({ id: elem.id, entity_type: 'element', name: elem.name });
+  }
+}
+
+// Remove edges that still don't resolve
+const nodeIds = new Set(nodes.map((n) => n.id));
+const validEdges = edges.filter((e) => nodeIds.has(e.target));
+const dropped = edges.length - validEdges.length;
+
 writeFileSync(
   resolve(DATA_DIR, 'graph.json'),
-  JSON.stringify({ nodes, edges }, null, 2),
+  JSON.stringify({ nodes, edges: validEdges }, null, 2),
 );
-console.log(`  graph.json: ${nodes.length} nodes, ${edges.length} edges`);
+console.log(`  graph.json: ${nodes.length} nodes, ${validEdges.length} edges${dropped ? ` (${dropped} unresolvable dropped)` : ''}`);
 
 console.log('\nExport generation complete.');

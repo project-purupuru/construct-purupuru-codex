@@ -1,3 +1,11 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Runtime state
+.run/
 
 # LOA SUBMODULE SYMLINKS (added by mount-submodule.sh)
 # Symlinks to .loa/ submodule — recreated on mount

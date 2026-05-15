@@ -219,6 +219,31 @@
       "id": "jani-base",
       "entity_type": "jani",
       "name": "Jani"
+    },
+    {
+      "id": "elem-wood",
+      "entity_type": "element",
+      "name": "Wood"
+    },
+    {
+      "id": "elem-fire",
+      "entity_type": "element",
+      "name": "Fire"
+    },
+    {
+      "id": "elem-earth",
+      "entity_type": "element",
+      "name": "Earth"
+    },
+    {
+      "id": "elem-metal",
+      "entity_type": "element",
+      "name": "Metal"
+    },
+    {
+      "id": "elem-water",
+      "entity_type": "element",
+      "name": "Water"
     }
   ],
   "edges": [
