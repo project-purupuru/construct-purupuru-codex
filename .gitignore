@@ -7,17 +7,8 @@ dist/
 # Runtime state
 .run/
 
-# LOA SUBMODULE SYMLINKS (added by mount-submodule.sh)
-# Symlinks to .loa/ submodule — recreated on mount
-.claude/scripts
-.claude/protocols
-.claude/hooks
-.claude/data
-.claude/schemas
-.claude/loa/CLAUDE.loa.md
-.claude/loa/reference
-.claude/loa/feedback-ontology.yaml
-.claude/loa/learnings
+# LOA SUBMODULE SYMLINKS
+# These symlinks point into .loa/ submodule — tracked so CI can resolve them
 .claude/settings.json
 .claude/checksums.json
 .loa-state/
