@@ -1,10 +1,10 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-05-15T01:12:38.856Z",
+  "generated_at": "2026-05-15T01:15:36.283Z",
   "entity_counts": {
-    "characters": 5,
+    "characters/caretakers": 5,
     "puruhani": 5,
     "locations": 19,
-    "jani": 15
+    "characters/jani": 15
   }
 }

@@ -18,7 +18,7 @@ interface Entity {
 
 // Collect all entities
 const entities: Entity[] = [];
-const dirs = ['characters', 'puruhani', 'locations', 'jani'];
+const dirs = ['characters/caretakers', 'puruhani', 'locations', 'characters/jani'];
 
 for (const dir of dirs) {
   const files = globSync(resolve(ROOT, dir, '*.md'));

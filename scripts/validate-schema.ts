@@ -13,10 +13,10 @@ function loadSchema(name: string): object {
 }
 
 const ENTITY_DIRS: Record<string, string> = {
-  character: 'characters',
+  character: 'characters/caretakers',
   puruhani: 'puruhani',
   location: 'locations',
-  jani: 'jani',
+  jani: 'characters/jani',
 };
 
 const ENTITY_SCHEMAS: Record<string, string> = {

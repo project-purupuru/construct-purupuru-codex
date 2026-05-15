@@ -12,10 +12,10 @@ mkdirSync(DATA_DIR, { recursive: true });
 type EntityDir = { dir: string; output: string };
 
 const ENTITY_DIRS: EntityDir[] = [
-  { dir: 'characters', output: 'characters.jsonl' },
+  { dir: 'characters/caretakers', output: 'characters.jsonl' },
   { dir: 'puruhani', output: 'puruhani.jsonl' },
   { dir: 'locations', output: 'locations.jsonl' },
-  { dir: 'jani', output: 'jani.jsonl' },
+  { dir: 'characters/jani', output: 'jani.jsonl' },
 ];
 
 // Generate JSONL exports
