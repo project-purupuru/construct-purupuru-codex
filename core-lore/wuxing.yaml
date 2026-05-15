@@ -73,7 +73,7 @@ elements:
     sheng_generated_by: elem-earth
     ke_overcomes: elem-wood
     ke_overcome_by: elem-fire
-    characters: [char-ren]
+    characters: [char-eun]
     puruhani: [puruhani-metal]
     jani: [jani-metal, jani-bronze, jani-silver, jani-gold]
     henlo_letter: L

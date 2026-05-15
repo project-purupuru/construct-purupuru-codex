@@ -41,7 +41,7 @@ The greeting, the ethos, the way of life. Five letters, five elements, five char
 | H | Wood | Kaori | Hopeful | Happy |
 | E | Earth | Nemu | Empty | Exhausted |
 | N | Fire | Akane | Naughty | Nefarious |
-| L | Metal | Ren | Loyal | Loving |
+| L | Metal | Eun | Loyal | Loving |
 | O | Water | Ruan | Overstimulated | Overwhelmed |
 
 ## 4. Puruhani
@@ -59,7 +59,7 @@ Five young people who discovered and bonded with the Puruhani. Each forms a mutu
 | Kaori | Benevolence | 仁 |
 | Nemu | Fidelity | 信 |
 | Akane | Propriety | 禮 |
-| Ren | Righteousness | 義 |
+| Eun | Righteousness | 義 |
 | Ruan | Wisdom | 智 |
 
 ## 7. Jani

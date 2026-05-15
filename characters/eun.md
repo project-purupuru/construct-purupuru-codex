@@ -1,7 +1,7 @@
 ---
-id: char-ren
-name: Ren
-slug: ren
+id: char-eun
+name: Eun
+slug: eun
 entity_type: character
 canon_tier: canonical
 element: metal
@@ -11,7 +11,7 @@ virtue: "Righteousness (義)"
 domain: scientific experimentation
 bear_species: polar bear
 puruhani_partner: puruhani-metal
-source_file: entities/characters/ren.md
+source_file: entities/characters/eun.md
 source_commit: HEAD
 tags: [kizuna, metal, character]
 cross_references:
@@ -19,11 +19,11 @@ cross_references:
   - elem-metal
 ---
 
-# Ren (L -- Loyal / Loving -- Metal -- Righteousness)
+# Eun (L -- Loyal / Loving -- Metal -- Righteousness)
 
 *Name meaning: JP for lotus, symbolizing resilience.*
 
-While both fiercely loyal and undeniably brilliant, Ren is woefully unpredictable. Her chaotic streak brings her close to being a mad scientist of sorts, always conducting curious experiments driven by her peculiar fascination with bears. This fascination is so deeply rooted that she's nearly turned herself into one. While her obsession is a matter of concern to her friends, they trust that she knows her limits. Her Puru in particular has helped her find balance between obsession and responsible discovery, helping her work veer more towards things that will be helpful for Tsuheji overall.
+While both fiercely loyal and undeniably brilliant, Eun is woefully unpredictable. Her chaotic streak brings her close to being a mad scientist of sorts, always conducting curious experiments driven by her peculiar fascination with bears. This fascination is so deeply rooted that she's nearly turned herself into one. While her obsession is a matter of concern to her friends, they trust that she knows her limits. Her Puru in particular has helped her find balance between obsession and responsible discovery, helping her work veer more towards things that will be helpful for Tsuheji overall.
 
 ## Pair Dynamic
 
@@ -32,7 +32,7 @@ Compatible, but almost too energetic. Loyal listens to all of Loving's commands 
 ## World Connections
 
 - **Element**: Metal -- clarity, autumn, evening
-- **Location affinity**: An observatory at dusk (Ren's domain -- clarity, autumn, silver-purple)
+- **Location affinity**: An observatory at dusk (Eun's domain -- clarity, autumn, silver-purple)
 - **Puruhani**: Loving (pot color: purple, bera sticker: polar bear)
 - **HENLO Letter**: L
 - **Color**: #8053A0 (Purple)

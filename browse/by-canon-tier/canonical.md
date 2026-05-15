@@ -11,6 +11,7 @@
 | [Earth Jani](../../jani/earth.md) | jani | `jani-earth` |
 | [Earth Puruhani](../../puruhani/earth.md) | puruhani | `puruhani-earth` |
 | [Egg Jani](../../jani/egg.md) | jani | `jani-egg` |
+| [Eun](../../characters/eun.md) | character | `char-eun` |
 | [Fire Jani](../../jani/fire.md) | jani | `jani-fire` |
 | [Fire Puruhani](../../puruhani/fire.md) | puruhani | `puruhani-fire` |
 | [Gateway Cafe](../../locations/gateway-cafe.md) | location | `loc-gateway-cafe` |
@@ -28,7 +29,6 @@
 | [Metal Puruhani](../../puruhani/metal.md) | puruhani | `puruhani-metal` |
 | [Musubi Station](../../locations/musubi-station.md) | location | `loc-musubi-station` |
 | [Nemu](../../characters/nemu.md) | character | `char-nemu` |
-| [Ren](../../characters/ren.md) | character | `char-ren` |
 | [Ruan](../../characters/ruan.md) | character | `char-ruan` |
 | [Sea Street Stalls](../../locations/sea-street-stalls.md) | location | `loc-sea-street-stalls` |
 | [Silver Jani](../../jani/silver.md) | jani | `jani-silver` |

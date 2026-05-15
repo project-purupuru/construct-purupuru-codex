@@ -6,11 +6,6 @@
       "name": "Ruan"
     },
     {
-      "id": "char-ren",
-      "entity_type": "character",
-      "name": "Ren"
-    },
-    {
       "id": "char-nemu",
       "entity_type": "character",
       "name": "Nemu"
@@ -19,6 +14,11 @@
       "id": "char-kaori",
       "entity_type": "character",
       "name": "Kaori"
+    },
+    {
+      "id": "char-eun",
+      "entity_type": "character",
+      "name": "Eun"
     },
     {
       "id": "char-akane",
@@ -231,14 +231,6 @@
       "target": "elem-water"
     },
     {
-      "source": "char-ren",
-      "target": "puruhani-metal"
-    },
-    {
-      "source": "char-ren",
-      "target": "elem-metal"
-    },
-    {
       "source": "char-nemu",
       "target": "puruhani-earth"
     },
@@ -253,6 +245,14 @@
     {
       "source": "char-kaori",
       "target": "elem-wood"
+    },
+    {
+      "source": "char-eun",
+      "target": "puruhani-metal"
+    },
+    {
+      "source": "char-eun",
+      "target": "elem-metal"
     },
     {
       "source": "char-akane",
@@ -280,7 +280,7 @@
     },
     {
       "source": "puruhani-metal",
-      "target": "char-ren"
+      "target": "char-eun"
     },
     {
       "source": "puruhani-metal",

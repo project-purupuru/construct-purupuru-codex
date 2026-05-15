@@ -9,12 +9,12 @@ generation: kizuna
 emotion_trait: Loving
 pot_color: purple
 bear_type: polar bear
-character_partner: char-ren
+character_partner: char-eun
 source_file: entities/puruhani/metal.md
 source_commit: HEAD
 tags: [kizuna, puruhani, metal]
 cross_references:
-  - char-ren
+  - char-eun
   - elem-metal
 ---
 
@@ -22,7 +22,7 @@ cross_references:
 
 *Name: Unknown (GAP-002)*
 
-Sentient honey creature created by the Ooga Booga Beras (OBB) from honey. Lives in a purple clay pot with a Polar Bear bera sticker. Paired with Ren (Loyal).
+Sentient honey creature created by the Ooga Booga Beras (OBB) from honey. Lives in a purple clay pot with a Polar Bear bera sticker. Paired with Eun (Loyal).
 
 ## Wuxing Mapping
 
@@ -37,7 +37,7 @@ Sentient honey creature created by the Ooga Booga Beras (OBB) from honey. Lives 
 
 Soft, golden, honey-colored blob. Same species as all Puruhani but with a Loving expression and pose. Characteristically sleepy -- drapes over the sides of its purple clay pot. The pot has a lid/cap. "Just woke up from centuries of hibernation" energy.
 
-## Pair Dynamic (with Ren)
+## Pair Dynamic (with Eun)
 
 Compatible, but almost too energetic. Loyal listens to all of Loving's commands -- no matter how incorrect or misguided they end up being. Loving always wants to please, leading to occasional overextension that Loving can't help but push Loyal towards. Their compassionate nature leads them to find the correct and moral path despite making mistakes along the way -- embodying Righteousness.
 
