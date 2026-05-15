@@ -41,6 +41,10 @@ Soft, golden, honey-colored blob. Same species as all Puruhani but with a Happy 
 
 The most functional pair. A symbiotic relationship where they keep each other upbeat and on the right path no matter what life throws at them. Happy provides Hopeful with youthful vigor; Hopeful keeps Happy from losing her cool when things go awry. Their overwhelming dedication to bringing happiness evokes Benevolence, leaving a trail of goodness wherever they go.
 
+## Elemental Meaning
+
+Wood — Happiness and Hope bring growth, allowing one to develop consistently and bring vitality to the world. Tempered by Loyalty and Love (Metal overcomes Wood), which might cause them to hold back from going too far in their endeavors, keeping them rooted in reality. Their overwhelming dedication to bringing happiness evokes Benevolence, leaving a trail of goodness wherever they go.
+
 ## Origin
 
 The OBB tried to create a new generation of bears from honey but didn't quite get things right -- the creatures had no proper jars to contain them. They were put into makeshift clay pots and buried away until the OBB could find a way to help. The Puruhani fell through from the OBB world into Tsuheji, ending up in a field of pots. Found by locals, they were quickly adopted after demonstrating their ability to inspire people. They took on quiet leadership roles, guiding early Tsuheji society toward virtue and harmony.

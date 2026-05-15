@@ -41,6 +41,10 @@ Soft, golden, honey-colored blob. Same species as all Puruhani but with a Nefari
 
 A little too compatible. Naughty gives Nefarious the most insidious ideas while Nefarious prods Naughty into following through. A little toxic, but the pair still manages to succeed. Perhaps the most dysfunctional of the bunch -- competitive spirit keeps them together because they both know they do help each other despite their problems. While not being an active embodiment of Propriety, their activities certainly remind those around them what behaviors may not be useful in a functional society.
 
+## Elemental Meaning
+
+Fire — Naughty and Nefarious rise when one becomes too confident. Flourishing and overexcitement leads to taking too many risks, eventually burning yourself down if you aren't cautious. Passionate, but dangerous in their intensity. While not being an active embodiment of Propriety, their activities certainly remind those around them what behaviors may not be useful in a functional society.
+
 ## Origin
 
 The OBB tried to create a new generation of bears from honey but didn't quite get things right -- the creatures had no proper jars to contain them. They were put into makeshift clay pots and buried away until the OBB could find a way to help. The Puruhani fell through from the OBB world into Tsuheji, ending up in a field of pots. Found by locals, they were quickly adopted after demonstrating their ability to inspire people. They took on quiet leadership roles, guiding early Tsuheji society toward virtue and harmony.

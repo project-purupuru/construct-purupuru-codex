@@ -41,6 +41,10 @@ Soft, golden, honey-colored blob. Same species as all Puruhani but with a Loving
 
 Compatible, but almost too energetic. Loyal listens to all of Loving's commands -- no matter how incorrect or misguided they end up being. Loving always wants to please, leading to occasional overextension that Loving can't help but push Loyal towards. Their compassionate nature leads them to find the correct and moral path despite making mistakes along the way -- embodying Righteousness.
 
+## Elemental Meaning
+
+Metal — Loyal and Loving embody the sense of Righteousness found in every person and Puru, their compassionate nature leading them to find the correct and moral path despite their active nature leading to them making mistakes along the way.
+
 ## Origin
 
 The OBB tried to create a new generation of bears from honey but didn't quite get things right -- the creatures had no proper jars to contain them. They were put into makeshift clay pots and buried away until the OBB could find a way to help. The Puruhani fell through from the OBB world into Tsuheji, ending up in a field of pots. Found by locals, they were quickly adopted after demonstrating their ability to inspire people. They took on quiet leadership roles, guiding early Tsuheji society toward virtue and harmony.

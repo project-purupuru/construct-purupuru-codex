@@ -41,6 +41,10 @@ Soft, golden, honey-colored blob. Same species as all Puruhani but with an Exhau
 
 Strangely functional. They keep each other moving as a source of reassurance. Exhausted keeps Empty going with that sliver of enthusiasm that clings after a day of endured work; Empty provides the silent company she needs. Their work despite their constantly drained mindset embodies Fidelity, the steadfast dedication to living a productive, good life.
 
+## Elemental Meaning
+
+Earth — Exhaustion and Emptiness usually signal a transitional phase, exposing one's most honest feelings at the lowest point in their recovery. This low point allows for positive feelings to return, creating stability and ensuring the next low is higher than the last. Their work despite their constantly drained mindset embodies Fidelity, the steadfast dedication to living a productive, good life.
+
 ## Origin
 
 The OBB tried to create a new generation of bears from honey but didn't quite get things right -- the creatures had no proper jars to contain them. They were put into makeshift clay pots and buried away until the OBB could find a way to help. The Puruhani fell through from the OBB world into Tsuheji, ending up in a field of pots. Found by locals, they were quickly adopted after demonstrating their ability to inspire people. They took on quiet leadership roles, guiding early Tsuheji society toward virtue and harmony.

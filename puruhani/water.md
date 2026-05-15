@@ -41,6 +41,10 @@ Soft, golden, honey-colored blob. Same species as all Puruhani but with an Overw
 
 This pair shouldn't work out, but it does. Overwhelmed struggles with some of the most basic tasks, but Overstimulated keeps her focused on the minute details, honing her in on what's achievable and stopping things from getting too fast for both of them. They always manage to get the job done, even if it takes far too long. Slow, cautious, resourceful -- embodying the Wisdom of measured labor.
 
+## Elemental Meaning
+
+Water — Slow and cautious, Overwhelmed and Overstimulated embody the Wisdom of the Purus. Their state of measured labor enables them to reach a sense of resourcefulness to accomplish any task, contrasting the impulsive, fiery nature of Naughty and Nefarious.
+
 ## Origin
 
 The OBB tried to create a new generation of bears from honey but didn't quite get things right -- the creatures had no proper jars to contain them. They were put into makeshift clay pots and buried away until the OBB could find a way to help. The Puruhani fell through from the OBB world into Tsuheji, ending up in a field of pots. Found by locals, they were quickly adopted after demonstrating their ability to inspire people. They took on quiet leadership roles, guiding early Tsuheji society toward virtue and harmony.

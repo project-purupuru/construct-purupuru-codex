@@ -39,3 +39,15 @@ HENLO structures everything:
 - Jani elemental variants (Wuxing core)
 
 It is a greeting, a lifestyle, an ethos, and for some, a belief system.
+
+## Elemental Philosophy
+
+Each pair embodies their virtue not through direct action but through what their dynamic *reveals*:
+
+| Element | Pair | Philosophy |
+|---------|------|-----------|
+| **Wood** | Happy + Hopeful | Growth and vitality. Tempered by Metal (Loyalty/Love holds them back from overreach). Evokes Benevolence — a trail of goodness wherever they go. |
+| **Earth** | Exhausted + Empty | Transitional honesty. The lowest point allows positive feelings to return, creating stability. Embodies Fidelity — steadfast dedication despite being drained. |
+| **Fire** | Nefarious + Naughty | Overconfidence and risk. Passionate but dangerous in intensity. Reminds others of Propriety by showing what lies outside its boundaries. |
+| **Metal** | Loving + Loyal | Compassionate misdirection. They find the moral path despite mistakes born from eagerness to please. Embodies Righteousness through trial. |
+| **Water** | Overwhelmed + Overstimulated | Measured labor. Slow, cautious, resourceful — contrasting Fire's impulsiveness. Embodies Wisdom through patience. |
