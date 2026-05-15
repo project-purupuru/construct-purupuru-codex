@@ -1,5 +1,5 @@
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { resolve, basename } from 'node:path';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { basename, resolve } from 'node:path';
 import { globSync } from 'glob';
 import matter from 'gray-matter';
 import { parse as parseYaml } from 'yaml';
@@ -39,7 +39,10 @@ for (const { dir, output } of ENTITY_DIRS) {
 // Generate wuxing.json from wuxing.yaml
 const wuxingPath = resolve(ROOT, 'core-lore/wuxing.yaml');
 const wuxingData = parseYaml(readFileSync(wuxingPath, 'utf-8'));
-writeFileSync(resolve(DATA_DIR, 'wuxing.json'), JSON.stringify(wuxingData, null, 2));
+writeFileSync(
+  resolve(DATA_DIR, 'wuxing.json'),
+  JSON.stringify(wuxingData, null, 2),
+);
 console.log('  wuxing.json: generated');
 
 // Generate scope.json
@@ -50,7 +53,10 @@ const scope = {
 };
 for (const { dir, output } of ENTITY_DIRS) {
   const files = globSync(resolve(ROOT, dir, '*.md')).filter(
-    (f) => !basename(f).toLowerCase().match(/^(index|readme)\.md$/),
+    (f) =>
+      !basename(f)
+        .toLowerCase()
+        .match(/^(index|readme)\.md$/),
   );
   scope.entity_counts[dir] = files.length;
 }

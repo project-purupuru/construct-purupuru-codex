@@ -1,5 +1,5 @@
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { resolve, basename } from 'node:path';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { basename, resolve } from 'node:path';
 import { globSync } from 'glob';
 import matter from 'gray-matter';
 
@@ -37,7 +37,8 @@ const dimensions: Record<string, DimFn> = {
   'by-element': (e) => e.element || null,
   'by-generation': (e) => e.generation || null,
   'by-type': (e) => e.entity_type,
-  'by-district': (e) => (e as Record<string, unknown>).district as string || null,
+  'by-district': (e) =>
+    ((e as Record<string, unknown>).district as string) || null,
   'by-canon-tier': (e) => e.canon_tier,
 };
 
@@ -57,12 +58,17 @@ for (const [dimDir, dimFn] of Object.entries(dimensions)) {
   // Write index per value
   for (const [val, ents] of groups) {
     const lines = [`# ${val.charAt(0).toUpperCase() + val.slice(1)}`, ''];
-    lines.push(`${ents.length} entities with ${dimDir.replace('by-', '')} = **${val}**`, '');
+    lines.push(
+      `${ents.length} entities with ${dimDir.replace('by-', '')} = **${val}**`,
+      '',
+    );
     lines.push('| Entity | Type | ID |');
     lines.push('|--------|------|----|');
     for (const e of ents.sort((a, b) => a.name.localeCompare(b.name))) {
       const relPath = `../../${e.entity_type === 'jani' ? 'jani' : e.entity_type === 'character' ? 'characters' : e.entity_type === 'puruhani' ? 'puruhani' : 'locations'}/${e.id.split('-').slice(1).join('-')}.md`;
-      lines.push(`| [${e.name}](${relPath}) | ${e.entity_type} | \`${e.id}\` |`);
+      lines.push(
+        `| [${e.name}](${relPath}) | ${e.entity_type} | \`${e.id}\` |`,
+      );
     }
     writeFileSync(resolve(dir, `${val}.md`), lines.join('\n') + '\n');
   }

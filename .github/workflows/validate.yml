@@ -1,0 +1,52 @@
+name: Codex Validation
+
+on: [push, pull_request]
+
+jobs:
+  level-1-schema:
+    name: "L1: Schema Validation"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run validate:schema
+
+  level-2-integrity:
+    name: "L2: Integrity Check"
+    runs-on: ubuntu-latest
+    needs: level-1-schema
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+
+  level-3-build:
+    name: "L3: Build & Lint"
+    runs-on: ubuntu-latest
+    needs: level-2-integrity
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run lint
+      - run: pnpm run build

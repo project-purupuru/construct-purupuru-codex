@@ -42,10 +42,7 @@ export function entitiesByType(type: string): Entity[] {
   return getCache().get(type) || [];
 }
 
-export function findEntity(
-  type: string,
-  query: string,
-): Entity | undefined {
+export function findEntity(type: string, query: string): Entity | undefined {
   const entities = entitiesByType(type);
   const q = query.toLowerCase();
   return entities.find(

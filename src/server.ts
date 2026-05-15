@@ -4,14 +4,27 @@ import {
   CallToolRequestSchema,
   ListToolsRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
-import { findEntity, entitiesByType, search, allEntities, loadWuxing } from './data.js';
+import {
+  allEntities,
+  entitiesByType,
+  findEntity,
+  loadWuxing,
+  search,
+} from './data.js';
 
 const server = new Server(
   { name: 'purupuru-codex', version: '0.1.0' },
   { capabilities: { tools: {} } },
 );
 
-const ENTITY_TYPES = ['character', 'puruhani', 'location', 'jani', 'element', 'card'];
+const ENTITY_TYPES = [
+  'character',
+  'puruhani',
+  'location',
+  'jani',
+  'element',
+  'card',
+];
 
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
   tools: [
@@ -30,7 +43,10 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
       inputSchema: {
         type: 'object' as const,
         properties: {
-          element: { type: 'string', enum: ['wood', 'earth', 'fire', 'metal', 'water'] },
+          element: {
+            type: 'string',
+            enum: ['wood', 'earth', 'fire', 'metal', 'water'],
+          },
           name: { type: 'string' },
         },
       },
@@ -59,7 +75,12 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
       inputSchema: {
         type: 'object' as const,
         required: ['name'],
-        properties: { name: { type: 'string', enum: ['wood', 'earth', 'fire', 'metal', 'water'] } },
+        properties: {
+          name: {
+            type: 'string',
+            enum: ['wood', 'earth', 'fire', 'metal', 'water'],
+          },
+        },
       },
     },
     {
@@ -73,7 +94,8 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
     },
     {
       name: 'validate_world_element',
-      description: 'Validate a claim about the Purupuru world against canonical data',
+      description:
+        'Validate a claim about the Purupuru world against canonical data',
       inputSchema: {
         type: 'object' as const,
         required: ['claim'],
@@ -175,7 +197,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             type: 'text',
             text: JSON.stringify({
               error: 'NOT_AVAILABLE',
-              message: 'Card data not available in v1. Cards will be populated in v2.',
+              message:
+                'Card data not available in v1. Cards will be populated in v2.',
             }),
           },
         ],
@@ -291,7 +314,13 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         content: [
           {
             type: 'text',
-            text: JSON.stringify(results.map((e) => ({ id: e.id, name: e.name, type: e.entity_type }))),
+            text: JSON.stringify(
+              results.map((e) => ({
+                id: e.id,
+                name: e.name,
+                type: e.entity_type,
+              })),
+            ),
           },
         ],
       };
@@ -304,7 +333,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         content: [
           {
             type: 'text',
-            text: JSON.stringify(entities.map((e) => ({ id: e.id, name: e.name }))),
+            text: JSON.stringify(
+              entities.map((e) => ({ id: e.id, name: e.name })),
+            ),
           },
         ],
       };
@@ -312,7 +343,12 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
     default:
       return {
-        content: [{ type: 'text', text: JSON.stringify({ error: 'UNKNOWN_TOOL', name }) }],
+        content: [
+          {
+            type: 'text',
+            text: JSON.stringify({ error: 'UNKNOWN_TOOL', name }),
+          },
+        ],
       };
   }
 });
