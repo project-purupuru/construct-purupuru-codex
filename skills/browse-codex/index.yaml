@@ -1,0 +1,7 @@
+name: browse-codex
+description: Navigate codex entities by dimension
+triggers: [browse, navigate, "list by", "show all"]
+model_tier: haiku
+danger_level: safe
+effort_hint: low
+execution_hint: read-only

@@ -1,0 +1,7 @@
+name: cross-reference
+description: Traverse entity relationships and knowledge graph
+triggers: [cross-reference, "related to", connections, relationship, "linked to"]
+model_tier: haiku
+danger_level: safe
+effort_hint: low
+execution_hint: read-only

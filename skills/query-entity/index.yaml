@@ -1,0 +1,7 @@
+name: query-entity
+description: Deterministic entity lookup by name, ID, or slug
+triggers: [lookup, find, "what is", "who is", "tell me about"]
+model_tier: haiku
+danger_level: safe
+effort_hint: low
+execution_hint: read-only
