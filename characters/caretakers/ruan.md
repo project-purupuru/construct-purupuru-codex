@@ -11,6 +11,7 @@ virtue: "Wisdom (智)"
 domain: music production
 bear_species: red panda
 puruhani_partner: puruhani-water
+avatar: https://thj-assets.s3.us-west-2.amazonaws.com/Purupuru/caretakers/caretaker-ruan-pfp-v2.png
 source_file: entities/characters/ruan.md
 source_commit: HEAD
 tags: [kizuna, water, character]

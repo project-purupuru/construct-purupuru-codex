@@ -11,6 +11,7 @@ virtue: "Righteousness (義)"
 domain: scientific experimentation
 bear_species: polar bear
 puruhani_partner: puruhani-metal
+avatar: https://thj-assets.s3.us-west-2.amazonaws.com/Purupuru/caretakers/caretaker-ren-pfp-v2.png
 source_file: entities/characters/eun.md
 source_commit: HEAD
 tags: [kizuna, metal, character]

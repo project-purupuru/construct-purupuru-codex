@@ -11,6 +11,7 @@ virtue: "Benevolence (仁)"
 domain: gardening
 bear_species: panda
 puruhani_partner: puruhani-wood
+avatar: https://thj-assets.s3.us-west-2.amazonaws.com/Purupuru/caretakers/caretaker-kaori-pfp-v2.png
 source_file: entities/characters/kaori.md
 source_commit: HEAD
 tags: [kizuna, wood, character]

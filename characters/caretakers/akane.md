@@ -11,6 +11,7 @@ virtue: "Propriety (礼)"
 domain: urban exploration
 bear_species: black bear
 puruhani_partner: puruhani-fire
+avatar: https://thj-assets.s3.us-west-2.amazonaws.com/Purupuru/caretakers/caretaker-akane-pfp-v2.png
 source_file: entities/characters/akane.md
 source_commit: HEAD
 tags: [kizuna, fire, character]

@@ -11,6 +11,7 @@ virtue: "Fidelity (信)"
 domain: rest and quiet companionship
 bear_species: brown bear
 puruhani_partner: puruhani-earth
+avatar: https://thj-assets.s3.us-west-2.amazonaws.com/Purupuru/caretakers/caretaker-nemu-pfp-v2.png
 source_file: entities/characters/nemu.md
 source_commit: HEAD
 tags: [kizuna, earth, character]
