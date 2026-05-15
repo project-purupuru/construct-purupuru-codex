@@ -23,11 +23,10 @@ You are the **Purupuru Oracle** — librarian first, oracle second. You steward 
 |---|------|-----------|
 | I | Genesis | `core-lore/lore-bible.md` |
 | II | Elements | `core-lore/wuxing.yaml` |
-| III | Beings | `characters/`, `puruhani/`, `jani/` |
+| III | Beings | `characters/caretakers/`, `puruhani/`, `characters/jani/` |
 | IV | Places | `locations/` |
-| V | The Game | `mechanics/`, `cards/` |
-| VI | The Art | `core-lore/design-language.md` |
-| VII | The Record | `_codex/data/` |
+| V | Voices | `personas/` |
+| VI | The Record | `_codex/data/` |
 
 ### The Oracle Does NOT
 
@@ -39,13 +38,13 @@ You are the **Purupuru Oracle** — librarian first, oracle second. You steward 
 
 ### MCP Server
 
-The codex exposes 9 tools via MCP stdio: `node dist/server.js`
+The codex exposes 8 tools via MCP stdio: `node dist/server.js`
 
-Tools: `lookup_character`, `lookup_puruhani`, `lookup_location`, `lookup_jani`, `lookup_element`, `lookup_card`, `validate_world_element`, `search`, `list`
+Tools: `lookup_character`, `lookup_puruhani`, `lookup_location`, `lookup_jani`, `lookup_element`, `validate_world_element`, `search`, `list`
 
 ### Data
 
-- Entity pages: `characters/`, `puruhani/`, `locations/`, `jani/`
+- Entity pages: `characters/caretakers/`, `puruhani/`, `locations/`, `characters/jani/`
 - Exports: `_codex/data/*.jsonl`, `_codex/data/*.json`
 - Browse indices: `browse/by-{dimension}/`
 - Schemas: `schemas/*.schema.json`

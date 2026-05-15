@@ -23,7 +23,6 @@ const ENTITY_TYPES = [
   'location',
   'jani',
   'element',
-  'card',
 ];
 
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
@@ -81,15 +80,6 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
             enum: ['wood', 'earth', 'fire', 'metal', 'water'],
           },
         },
-      },
-    },
-    {
-      name: 'lookup_card',
-      description: 'Look up a card by ID (v2 — no card data in v1)',
-      inputSchema: {
-        type: 'object' as const,
-        required: ['id'],
-        properties: { id: { type: 'string' } },
       },
     },
     {
@@ -188,21 +178,6 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       const elem = wuxing.elements?.[q];
       if (!elem) return notFound('element', q);
       return { content: [{ type: 'text', text: JSON.stringify(elem) }] };
-    }
-
-    case 'lookup_card': {
-      return {
-        content: [
-          {
-            type: 'text',
-            text: JSON.stringify({
-              error: 'NOT_AVAILABLE',
-              message:
-                'Card data not available in v1. Cards will be populated in v2.',
-            }),
-          },
-        ],
-      };
     }
 
     case 'validate_world_element': {

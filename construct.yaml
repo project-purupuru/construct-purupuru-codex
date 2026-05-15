@@ -47,7 +47,6 @@ mcp:
     - lookup_location
     - lookup_jani
     - lookup_element
-    - lookup_card
     - validate_world_element
     - search
     - list
@@ -58,8 +57,6 @@ composition_paths:
   - locations/
   - jani/
   - core-lore/
-  - cards/
-  - mechanics/
   - browse/
   - _codex/data/
 
@@ -77,10 +74,8 @@ dimensions:
   - name: generation
     values: [kizuna, mirai, tensei]
   - name: entity_type
-    values: [character, puruhani, jani, location, card]
+    values: [character, puruhani, jani, location]
   - name: district
     values: [horai-surface, old-horai, tsuheji]
   - name: canon_tier
     values: [canonical, established, exploratory, speculative]
-  - name: rarity
-    values: [common, uncommon, rare, rarest]

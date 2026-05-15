@@ -40,7 +40,7 @@ pnpm run build
 node dist/server.js
 ```
 
-### 9 Tools
+### 8 Tools
 
 | Tool | Description |
 |------|-------------|
@@ -49,7 +49,6 @@ node dist/server.js
 | `lookup_location` | Look up a location by slug |
 | `lookup_jani` | Look up a Jani variant |
 | `lookup_element` | Wuxing element with Sheng/Ke cycle relationships |
-| `lookup_card` | Card lookup (v2) |
 | `validate_world_element` | Anti-hallucination — validate claims against canonical data |
 | `search` | Fuzzy search across all entities |
 | `list` | List all entities of a given type |

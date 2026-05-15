@@ -22,7 +22,7 @@
     },
     "entity_type": {
       "type": "string",
-      "enum": ["character", "puruhani", "location", "jani", "element", "card"]
+      "enum": ["character", "puruhani", "location", "jani", "element"]
     },
     "canon_tier": {
       "type": "string",
