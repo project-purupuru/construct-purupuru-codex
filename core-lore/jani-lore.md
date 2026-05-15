@@ -8,11 +8,30 @@ authority: "@gumi"
 
 ## In-World Origin
 
-The **Cave Bera of Tsuheji** — prehistoric cave paintings situated within Old Horai caverns (presently **The Cave of Clay**). These artworks depict a bear-like figure carved into stone, pigmented with red colorants, displaying spiral eyes.
+Deep in the caverns of Old Horai (presently **The Cave of Clay**), ancient cave paintings depict a unique bear-like figure — always in unusual red garb with covered eyes. These were painted by the then-young Puruhani **from memory** — they were depicting Jani as they knew him from before their awakening in Tsuheji. Jani is a real interdimensional being; the paintings were portraits, not inventions.
 
-Original caretakers created these paintings pursuing enlightenment through consuming minor quantities of honey leaking from Puruhani vessel fissures. This represented **deep honey** — inadvertently accessing the Puruhani's originating world (OBB realm), depicting imagery from its background.
+The ancient humans who tended the Puruhani also consumed **deep honey** — honey leaking from Puruhani vessel fissures — which gave vivid visions of the world the Puruhani came from. This further reinforced the imagery and spread it beyond just the Puruhani's own recollections.
 
-Throughout history, Cave Bera imagery accumulated cultural significance, enhanced through deep honey memory-intensification, transforming a mere artistic representation into a sentient, interdimensional entity capable of traveling between realms.
+A footnote in history for centuries, the **Cave Bera of Tsuheji** was rediscovered during one of the many throwback fads that took the city by storm. The Cave Bera developed into Tsuheji's mascot — the cute red-jacketed, glasses-clad bear known as **Jani**.
+
+## How Jani Gained Power
+
+Jani's interdimensional presence strengthened through two forces:
+
+1. **Deep honey** — the ancient honey rituals kept the connection alive through centuries, reinforcing his image with genuine memory from his originating world
+2. **Cultural love** — as the mascot exploded in popularity, the sheer weight of millions of people loving this image gave it a power of its own
+
+Both together: an image that was already a portrait of something real, fueled by both mystical memory and mass cultural devotion, became strong enough for Jani to wander between worlds.
+
+## Open Question: Elemental Jani
+
+How did the 13 Elemental Jani variants spawn from the singular Jani consciousness? This is not yet canonically determined. Possible directions:
+
+- Each element's expression of cultural love manifested its own facet of Jani
+- The Wuxing system naturally fractured Jani's presence into elemental aspects as it integrated into Tsuheji
+- The Puruhani's own elemental nature colored their memories of Jani, creating variant impressions from the start
+
+This remains an intentionally open creative space.
 
 ## Current Status
 
