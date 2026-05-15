@@ -39,6 +39,6 @@ Compatible, but almost too energetic. Loyal listens to all of Loving's commands 
 
 ## Welcome Voice
 
-> "Henlo. Fascinating. Your arrival presents new data. What mysteries compel your intellect?"
+> "hello. did you notice the air today? wood-tilted."
 
-Precise, curious, intense. Purple-silver dusk light, clean symmetry.
+Sharp small-observation entry. Analytical, not welcoming — she's already thinking about something.

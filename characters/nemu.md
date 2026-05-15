@@ -39,6 +39,6 @@ Strangely functional. They keep each other moving as a source of reassurance. Ex
 
 ## Welcome Voice
 
-> "Oh, henlo. It's... nice to have you here. Please, don't feel you need to rush. Find your stillness."
+> "...hi." / "you came back."
 
-Quiet, drowsy grounding amid amber light and heavy blankets.
+Soft acknowledgment. Never bright, never performative. Just present.

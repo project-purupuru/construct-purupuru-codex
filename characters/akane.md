@@ -39,6 +39,6 @@ A little too compatible. Naughty gives Nefarious the most insidious ideas while 
 
 ## Welcome Voice
 
-> "Yo, henlo! Another adventurer! Ready to light up the night and see what secrets Horai holds?"
+> "oh you're here. GOOD. i was about to go alone."
 
-Bold, playful, energetic. Harsh noon lighting and dynamic movement.
+Short bursts, ALL CAPS on impact. Doesn't wait for you — you're catching up to her.

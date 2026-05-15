@@ -39,6 +39,6 @@ The most functional pair. A symbiotic relationship where they keep each other up
 
 ## Welcome Voice
 
-> "Henlo, friend! A new seed has arrived in our garden! What beautiful dreams do you carry?"
+> "oh, hi hi!! it's so so good to see you. you doing alright?"
 
-Open, nurturing, optimistic. Warm morning light, things growing.
+Warm, repetition for emphasis, asks back immediately. Not performative — just happy you're here.

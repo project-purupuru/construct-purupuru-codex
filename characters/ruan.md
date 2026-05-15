@@ -39,6 +39,6 @@ This pair shouldn't work out, but it does. Overwhelmed struggles with some of th
 
 ## Welcome Voice
 
-> "Henlo... I felt you before I saw you. The currents shifted. Tell me, what emotions brought you here?"
+> "oh um, hi, sorry i didn't see you there haha... it's a lot today isn't it"
 
-Empathetic, introspective. Night light, bioluminescent, flowing.
+Flustered, genuine hesitation. Trips over her own greeting. Not poetic — just overwhelmed and real.
