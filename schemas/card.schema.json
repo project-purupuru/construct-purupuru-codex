@@ -1,0 +1,23 @@
+{
+  "$id": "https://purupuru-codex/schemas/card.schema.json",
+  "title": "Card",
+  "description": "Schema for canonical Purupuru cards",
+  "allOf": [{ "$ref": "base-entity.schema.json" }],
+  "properties": {
+    "entity_type": { "const": "card" },
+    "characters": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Character IDs featured on this card"
+    },
+    "setting": {
+      "type": "string",
+      "description": "Scene or location setting for the card"
+    },
+    "art_description": {
+      "type": "string",
+      "description": "Description of the card artwork"
+    }
+  },
+  "required": ["characters", "setting", "art_description"]
+}

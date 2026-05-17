@@ -23,6 +23,7 @@ const ENTITY_TYPES = [
   'location',
   'jani',
   'element',
+  'card',
 ];
 
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
@@ -66,6 +67,15 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
         type: 'object' as const,
         required: ['variant'],
         properties: { variant: { type: 'string' } },
+      },
+    },
+    {
+      name: 'lookup_card',
+      description: 'Look up a canonical card by name or slug',
+      inputSchema: {
+        type: 'object' as const,
+        required: ['name'],
+        properties: { name: { type: 'string' } },
       },
     },
     {
@@ -169,6 +179,13 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       const q = (args as Record<string, string>).variant;
       const entity = findEntity('jani', q);
       if (!entity) return notFound('jani', q);
+      return { content: [{ type: 'text', text: JSON.stringify(entity) }] };
+    }
+
+    case 'lookup_card': {
+      const q = (args as Record<string, string>).name;
+      const entity = findEntity('card', q);
+      if (!entity) return notFound('card', q);
       return { content: [{ type: 'text', text: JSON.stringify(entity) }] };
     }
 

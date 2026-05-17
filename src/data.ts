@@ -30,6 +30,7 @@ function getCache(): Map<string, Entity[]> {
   _cache.set('puruhani', loadJsonl('puruhani.jsonl'));
   _cache.set('location', loadJsonl('locations.jsonl'));
   _cache.set('jani', loadJsonl('jani.jsonl'));
+  _cache.set('card', loadJsonl('cards.jsonl'));
   return _cache;
 }
 

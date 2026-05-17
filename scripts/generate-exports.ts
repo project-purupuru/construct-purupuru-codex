@@ -16,6 +16,7 @@ const ENTITY_DIRS: EntityDir[] = [
   { dir: 'puruhani', output: 'puruhani.jsonl' },
   { dir: 'locations', output: 'locations.jsonl' },
   { dir: 'characters/jani', output: 'jani.jsonl' },
+  { dir: 'cards', output: 'cards.jsonl' },
 ];
 
 // Generate JSONL exports
